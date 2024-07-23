@@ -1,7 +1,29 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# Django stuff:
+*.log
+*.pot
 *.pyc
-*~
-__pycache__
-myvenv
+__pycache__/
 db.sqlite3
-/static
+media/
+
+# If your build process includes running Django tests, 
+# this might need to be ignored as well:
+coverage/
+*.cover
+
+# OS-generated files
 .DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.venv/
+.env
+
+# VS Code
+.vscode/
